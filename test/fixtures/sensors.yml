@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  facility: one
+  serial_number: MyString
+  measurement_type: MyString
+  alert_threshold: 1.5
+
+two:
+  facility: two
+  serial_number: MyString
+  measurement_type: MyString
+  alert_threshold: 1.5
