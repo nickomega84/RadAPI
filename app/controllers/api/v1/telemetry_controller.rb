@@ -1,7 +1,6 @@
 module Api
   module V1
     class TelemetryController < ApplicationController
-      
       def create
         sensor = Sensor.find_by(serial_number: telemetry_params[:serial_number])
 

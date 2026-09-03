@@ -3,12 +3,12 @@ Sensor.destroy_all
 Facility.destroy_all
 
 reactor_alpha = Facility.create!(
-  name: "Reactor Alpha - Ruse Central", 
+  name: "Reactor Alpha - Ruse Central",
   status: "active"
 )
 
 reactor_beta = Facility.create!(
-  name: "Reactor Beta - Santa Maria Central", 
+  name: "Reactor Beta - Santa Maria Central",
   status: "active"
 )
 
